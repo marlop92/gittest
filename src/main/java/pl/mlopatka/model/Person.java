@@ -6,10 +6,12 @@ package pl.mlopatka.model;
 public class Person {
 	
 	private String name;
+	private String surname;
 	private int age;
 	
-	public Person(final String name, final int age) {
+	public Person(final String name, final String surname, final int age) {
 		this.name = name;
+		this.surname = surname;
 		this.age = age;
 	}
 	
@@ -19,6 +21,14 @@ public class Person {
 	
 	public void setName(final String name) {
 		this.name = name;
+	}
+	
+	public String getSurname() {
+		return surname;
+	}
+	
+	public void setSurname(final String surname) {
+		this.surname = surname;
 	}
 	
 	public int getAge() {
