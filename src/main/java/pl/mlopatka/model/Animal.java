@@ -7,5 +7,9 @@ public class Animal {
 	
 	private String name;
 	private String type;
-	private String color
+	private String color;
+	
+	public String type() {
+		return type;
+	}
 }
