@@ -9,6 +9,12 @@ public class Animal {
 	private String type;
 	private String color;
 	
+	public Animal(final String name, final String type, final String color) {
+		this.name = name;
+		this.type = type;
+		this.color = color;
+	}
+	
 	public String type() {
 		return type;
 	}
