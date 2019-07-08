@@ -19,7 +19,7 @@ public class Animal {
 		return color;
 	}
 	
-	public String type() {
+	public String getType() {
 		return type;
 	}
 }
