@@ -7,5 +7,11 @@ public class Animal {
 	
 	private String name;
 	private String type;
-	private String color
+	private String color;
+	
+	public Animal(final String name, final String type, final String color) {
+		this.name = name;
+		this.type = type;
+		this.color = color;
+	}
 }
