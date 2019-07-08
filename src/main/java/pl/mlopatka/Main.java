@@ -6,4 +6,5 @@ package pl.mlopatka;
 public class Main {
 	
 	private static String name = "MyName";
+	private static String surname = "MySurname";
 }
