@@ -15,6 +15,10 @@ public class Animal {
 		this.color = color;
 	}
 	
+	public String getColor() {
+		return color;
+	}
+	
 	public String type() {
 		return type;
 	}
